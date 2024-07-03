@@ -1029,15 +1029,15 @@
       }
 
       //Variable Pertanyaan Akhir
-      var tanya = "Oiya Boleh minta nomernya ngga ? 😶❤️";
-      var opstanya = "Ayo jawab 😆";
+      var tanya = "Btw Can I have your whatsapp ? 😶";
+      var opstanya = "Pilih salah satu ya 😆";
       var tompositif = "BOLEH";
       var tomnegatif = "BOLEH BANGET!";
 
       async function pertanyaan() {
         var { isConfirmed: prtanya } = await swals.fire({
           text: "" + opstanya,
-          title: nama + " " + tanya,
+          title: tanya + " " + nama,
           imageUrl: "" + fotostiker5.src,
           showCancelButton: true,
           confirmButtonText: "" + tompositif,
